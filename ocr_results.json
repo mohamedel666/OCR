@@ -1,0 +1,110 @@
+[
+  {
+    "image": "english_test2.png",
+    "predicted_script": "numeric",
+    "classifier_confidence": 0.7305905681653131,
+    "text": "IT'S TIME TO LEARN ENGLISH!",
+    "confidence": 0.9991629123687744,
+    "model": "PP-OCRv6_medium_rec",
+    "reason": "Classifier predicted numeric (0.731); both OCR models compared. English candidate had the higher adjusted score",
+    "needs_review": false,
+    "comparison_performed": true,
+    "fallback_used": false
+  },
+  {
+    "image": "mixed_test.png",
+    "predicted_script": "arabic",
+    "classifier_confidence": 0.956831669808986,
+    "text": "BARCELONA Nakuten Rakuten للملابس الرياضية إدارة كابتن صبري المسيري L01020211673",
+    "confidence": 0.9481321374575297,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "Visual classifier routed to arabic_PP-OCRv5_mobile_rec; Review: Mixed-script output",
+    "needs_review": true,
+    "comparison_performed": false,
+    "fallback_used": false
+  },
+  {
+    "image": "numeric_test.png",
+    "predicted_script": "arabic",
+    "classifier_confidence": 0.9309643330443075,
+    "text": "29005151501234 20 / 05 / 2024 19 / 05 / 2034",
+    "confidence": 0.9766933719317118,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "Visual classifier routed to arabic_PP-OCRv5_mobile_rec",
+    "needs_review": false,
+    "comparison_performed": false,
+    "fallback_used": false
+  },
+  {
+    "image": "text_001.png",
+    "predicted_script": "arabic",
+    "classifier_confidence": 0.9366610885982675,
+    "text": "تاجر",
+    "confidence": 0.9089453220367432,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "Visual classifier routed to arabic_PP-OCRv5_mobile_rec",
+    "needs_review": false,
+    "comparison_performed": false,
+    "fallback_used": false
+  },
+  {
+    "image": "text_002.png",
+    "predicted_script": "arabic",
+    "classifier_confidence": 0.6633551129241343,
+    "text": "السعادة",
+    "confidence": 0.982805609703064,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "Visual classifier routed to arabic_PP-OCRv5_mobile_rec",
+    "needs_review": false,
+    "comparison_performed": false,
+    "fallback_used": false
+  },
+  {
+    "image": "text_003.png",
+    "predicted_script": "latin",
+    "classifier_confidence": 0.9817724341033975,
+    "text": "للتنجيد والستائروالأثاث",
+    "confidence": 0.9376025795936584,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "PP-OCRv6_medium_rec failed or had low confidence; arabic_PP-OCRv5_mobile_rec fallback attempted. English OCR returned no text; Review: Fallback OCR was required",
+    "needs_review": true,
+    "comparison_performed": true,
+    "fallback_used": true
+  },
+  {
+    "image": "text_004.png",
+    "predicted_script": "latin",
+    "classifier_confidence": 0.9991161407946003,
+    "text": "01007845438-01223115638",
+    "confidence": 0.9999973177909851,
+    "model": "PP-OCRv6_medium_rec",
+    "reason": "Visual classifier routed to PP-OCRv6_medium_rec",
+    "needs_review": false,
+    "comparison_performed": false,
+    "fallback_used": false
+  },
+  {
+    "image": "text_005.png",
+    "predicted_script": "latin",
+    "classifier_confidence": 0.9969544614779693,
+    "text": "شارع السمعانية",
+    "confidence": 0.9381619095802307,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "PP-OCRv6_medium_rec failed or had low confidence; arabic_PP-OCRv5_mobile_rec fallback attempted. English OCR returned no text; Review: Fallback OCR was required",
+    "needs_review": true,
+    "comparison_performed": true,
+    "fallback_used": true
+  },
+  {
+    "image": "text_006.png",
+    "predicted_script": "latin",
+    "classifier_confidence": 0.9281997644681689,
+    "text": "إدارةابوسيضن",
+    "confidence": 0.8496996760368347,
+    "model": "arabic_PP-OCRv5_mobile_rec",
+    "reason": "PP-OCRv6_medium_rec failed or had low confidence; arabic_PP-OCRv5_mobile_rec fallback attempted. English OCR returned no text; Review: OCR confidence below review threshold; Fallback OCR was required",
+    "needs_review": true,
+    "comparison_performed": true,
+    "fallback_used": true
+  }
+]
